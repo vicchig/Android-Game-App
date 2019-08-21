@@ -21,18 +21,19 @@ Information about the games and how they are played are listed below to explain 
 ### Sliding Tiles
 
 The Sliding Tiles game will take an image and separate it into tiles.  The bottom-right-most tile of the original image will be replaced with a blank tile, and these tiles will be shuffled to create the gameboard.  The goal of the game is to recreate the original image (with the blank tile at the bottom right) by switching the tiles around.  The only way to switch tiles around are to tap on tiles adjacent to the blank tile.  Doing so will switch the tile that was tapped on, with the blank tile.  The game ends when the image is reconstructed, and score is calculated based off how many moves were made during the game.
+</br>
 ![Sliding Tiles Menu Screen](./Images/SlidingTilesMenu(lowerRes).png)</br>
 *Sliding Tiles Menu Screen*
-
+</br>
 ![Sliding Tiles Game](./Images/SlidingTilesRegMediumGame.png)</br>
 *Sliding Tiles with numbers*
-
+</br>
 ![Sliding Tiles Image from URL](./Images/SlidingTilesMenuImageURL.png)</br>
 *Using Image from URL (menu)*
-
+</br>
 ![Sliding Tiles Game with Image](./Images/SlidingTilesImgMedium.png)</br>
 *Using Image from URL (game)*
-
+</br>
 ### Pipelines
 
 The Pipelines game will randomly generate a board of pipes that has a beginning and end tile, indicated by the presence of water within these special pipes.  The goal of the game is to create a path between the beginning and end tiles by rotating the other pipes.  Pipes can be rotated 90 degrees by tapping on their tile.  The game ends when the path is completed, and score is calculated based off how many moves were made during the game.
