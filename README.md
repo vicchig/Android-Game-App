@@ -34,13 +34,25 @@ The Sliding Tiles game will take an image and separate it into tiles.  The botto
 ![Sliding Tiles Game with Image](./Images/SlidingTilesImgMedium.png)</br>
 *Using Image from URL (game)*</br>
 
-### Pipelines
-
-The Pipelines game will randomly generate a board of pipes that has a beginning and end tile, indicated by the presence of water within these special pipes.  The goal of the game is to create a path between the beginning and end tiles by rotating the other pipes.  Pipes can be rotated 90 degrees by tapping on their tile.  The game ends when the path is completed, and score is calculated based off how many moves were made during the game.
-
 ### 4096
 
-The 4096 game will start with a 4x4 grid with a '2' tile in the top left.  The goal of the game is to create a '4096' tile by adding tiles together on the board.  Tiles will be added together when one comes in contact with another, but only if both tiles contain the same value.  Tiles move when the user swipes in a direction, but only if the direction allows at least one tile to either move in that direction, or combine with another tile.  Each time the user makes a valid move, a new '2' or '4' block will enter play somewhere in the board.  The game ends when either the board is full, in which case the player loses, or the '4096' tile is created, in which case the player wins.  In either case, score is calculated based off the number and value of tiles combined.  Upon the game ending, the user will be unable to make any more moves.
+The 4096 game will start with a 4x4 grid with a '2' tile in the top left.  The goal of the game is to create a '4096' tile by adding tiles together on the board.  Tiles will be added together when one comes in contact with another, but only if both tiles contain the same value.  Tiles move when the user swipes in a direction, but only if the direction allows at least one tile to either move in that direction, or combine with another tile.  Each time the user makes a valid move, a new '2' or '4' block will enter play somewhere in the board.  The game ends when either the board is full, in which case the player loses, or the '4096' tile is created, in which case the player wins.  In either case, score is calculated based off the number and value of tiles combined.  Upon the game ending, the user will be unable to make any more moves.</br>
+
+![4096 Begin Game](./Images/4096Start.png)</br>
+*4096 Game Start*</br>
+
+![4096 Some Moves](./Images/4096SomeMoves.png)</br>
+*After some moves*</br>
+
+![4096 Some More Moves](./Images/4096MoreMoves.png)</br>
+*After some more moves*</br>
+
+### Pipelines
+
+The Pipelines game will randomly generate a board of pipes that has a beginning and end tile, indicated by the presence of water within these special pipes.  The goal of the game is to create a path between the beginning and end tiles by rotating the other pipes.  Pipes can be rotated 90 degrees by tapping on their tile.  The game ends when the path is completed, and score is calculated based off how many moves were made during the game. </br>
+
+![Pipelines](./Images/Pipelines.png)</br>
+*Pipelines Main Game Screen*</br>
 
 ## Functionalities
 
@@ -48,7 +60,10 @@ Functionalities are listed below so as to explain how the user can properly use 
 
 ### Sign-in and Sign-up
 
-Sign-in and sign-ups are dealt with in the "Your Account" button from the "Welcome Back" menu.  From the resulting menu, pressing the "Log In" button will bring the user to a sign-in screen,  where they have the option of either logging in by entering a stored account's credentials in the username and password fields and pressing the "Log In" button, or creating a new account by pressing the button "New Around Here?", which prompts the user to enter a username that is not already stored within the system, and a corresponding password.  Once these fields are filled properly, pressing "Create Account" will bring the user back to the log-in menu, where they can use their newly created account to log in.
+Sign-in and sign-ups are dealt with in the "Your Account" button from the "Welcome Back" menu.  From the resulting menu, pressing the "Log In" button will bring the user to a sign-in screen,  where they have the option of either logging in by entering a stored account's credentials in the username and password fields and pressing the "Log In" button, or creating a new account by pressing the button "New Around Here?", which prompts the user to enter a username that is not already stored within the system, and a corresponding password.  Once these fields are filled properly, pressing "Create Account" will bring the user back to the log-in menu, where they can use their newly created account to log in.</br>
+
+![LogIn](./Images/LogIn.png)</br>
+*Log In Screen*</br>
 
 ### Autosave and Saving
 
@@ -104,7 +119,10 @@ Scoring is done in different ways for different games, and will only be stored w
 
 If a user plays a game and earns a score higher than their currently held high-score for that game, the high-score is replaced by the score.
 
-The scores are stored within the accounts, and separate scoreboards for each game display the high-scores from each account from high to low.  The scoreboard activity can be accessed from the main "Welcome Back!" menu by pressing the "All Scores" button while logged in.  Scoreboards for each of the three games can be accessed through the bottom navigation display, with the default being the Sliding Tiles scoreboard.  The currently logged in user's high score for the game selected will be displayed, alongside a list of the high-scores for all the accounts stored.
+The scores are stored within the accounts, and separate scoreboards for each game display the high-scores from each account from high to low.  The scoreboard activity can be accessed from the main "Welcome Back!" menu by pressing the "All Scores" button while logged in.  Scoreboards for each of the three games can be accessed through the bottom navigation display, with the default being the Sliding Tiles scoreboard.  The currently logged in user's high score for the game selected will be displayed, alongside a list of the high-scores for all the accounts stored.</br>
+
+![Scores](./Images/Scores1.png)</br>
+*Sample Score Screen*</br>
 
 ### Undo Moves
 
